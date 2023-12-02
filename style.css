@@ -1,0 +1,89 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    }
+html,body{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.pimg1{
+    background-image: url(image1.jpg);
+    min-height: 100%; 
+}
+.pimg2{
+    background-image: url(image2.jpg);
+    min-height: 100%; 
+}
+.pimg3{
+    background-image: url(image3.jpg);
+    min-height: 100%; 
+}
+.pimg4{
+    background-image: url(image4.jpg);
+    min-height: 100%; 
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    /* min-height: 100%; */
+    /* min-width: 100%; */
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    position: relative; 
+    background-position: center; 
+}
+
+.ptext{
+    position:absolute;
+    line-height: 70px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background-color: rgb(68, 68, 68);
+    color:aliceblue;
+    padding:20px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.section{
+    padding: 50px,80px;
+    text-align: center;
+}
+.section-light{
+    background-color:#161617c9;
+    color: whitesmoke;
+    /* margin: 0; */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+}
+
+.section-dark{
+    background-color:#161617c9;
+    /* background-color: transparent; */
+    color:aliceblue;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+@media only screen and (max-width: 600px) and (min-width: 10px) {
+    .ptext {
+      font-size: 10px;
+      letter-spacing: 4px;
+    }
+    .textBg {
+      padding:10px;
+  }
+}
