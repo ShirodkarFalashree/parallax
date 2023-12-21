@@ -87,3 +87,8 @@ html,body{
       padding:10px;
   }
 }
+
+
+.section-light,.section-dark{
+    padding: 5px;
+}
